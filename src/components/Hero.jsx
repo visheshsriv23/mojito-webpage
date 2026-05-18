@@ -25,7 +25,7 @@ const Hero = () => {
 	 yPercent: 100,
 	 duration: 1.8,
 	 ease: "expo.out",
-	 stagger: 0.08,
+	 stagger: 0.06,
 	});
 	
 	gsap.from(paragraphSplit.lines, {
@@ -114,6 +114,8 @@ const Hero = () => {
 		 ref={videoRef}
 		 muted
 		 playsInline
+		 autoplay
+		 loop
 		 preload="auto"
 		 src="/videos/output.mp4"
 		/>
