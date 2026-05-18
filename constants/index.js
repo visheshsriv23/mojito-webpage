@@ -8,7 +8,7 @@ const navLinks = [
 	title: "About Us",
  },
  {
-	id: "work",
+	id: "art",
 	title: "The Art",
  },
  {
@@ -22,25 +22,25 @@ const cocktailLists = [
 	name: "Chapel Hill Shiraz",
 	country: "AU",
 	detail: "Battle",
-	price: "$10",
+	price: "Rs 200",
  },
  {
 	name: "Caten Malbee",
 	country: "AU",
 	detail: "Battle",
-	price: "$49",
+	price: "RS 900",
  },
  {
 	name: "Rhino Pale Ale",
 	country: "CA",
 	detail: "750 ml",
-	price: "$20",
+	price: "Rs 500",
  },
  {
 	name: "Irish Guinness",
 	country: "IE",
 	detail: "600 ml",
-	price: "$29",
+	price: "Rs 699",
  },
 ];
 
@@ -49,25 +49,25 @@ const mockTailLists = [
 	name: "Tropical Bloom",
 	country: "US",
 	detail: "Battle",
-	price: "$10",
+	price: "Rs 200",
  },
  {
 	name: "Passionfruit Mint",
 	country: "US",
 	detail: "Battle",
-	price: "$49",
+	price: "Rs 1000",
  },
  {
 	name: "Citrus Glow",
 	country: "CA",
 	detail: "750 ml",
-	price: "$20",
+	price: "Rs 400",
  },
  {
 	name: "Lavender Fizz",
 	country: "IE",
 	detail: "600 ml",
-	price: "$29",
+	price: "Rs 600",
  },
 ];
 
@@ -123,18 +123,18 @@ const socials = [
 	url: "#",
  },
  {
-	name: "X (Twitter)",
-	icon: "/images/x.png",
-	url: "#",
+	name: "Github",
+	icon: "/images/github.png",
+	url: "https://github.com/visheshsriv23",
  },
  {
-	name: "Facebook",
-	icon: "/images/fb.png",
-	url: "#",
+	name: "Linkedin",
+	icon: "/images/linkedin.png",
+	url: "https://www.linkedin.com/in/vishesh-srivastava-29572233a/",
  },
 ];
 
-const sliderLists = [
+const allCocktails= [
  {
 	id: 1,
 	name: "Classic Mojito",
@@ -179,5 +179,5 @@ export {
  openingHours,
  storeInfo,
  socials,
- sliderLists,
+ allCocktails,
 };
